@@ -1,0 +1,27 @@
+{
+  "name": "vthang87/yii2-workflow",
+  "description": "Yii2 Workflow",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "workflow"
+  ],
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "Thang Dang",
+      "email": "vthang87@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "bower-asset/vis": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "vthang87\\workflow\\": ""
+    }
+  }
+}
